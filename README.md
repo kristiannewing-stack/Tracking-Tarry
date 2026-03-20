@@ -1,6 +1,6 @@
 ﻿# Tracking-Tarry
 
-The Windows 11 System Monitoring Tool (Tracking Tarry) is an open-source system tray application designed to provide real-time visibility into controversial telemetry and data collection features built into Windows 11. This tool empowers users with transparent information about background services
+The Windows 11 System Monitoring Tool (Tracking Tarry) is an open-source system tray application designed to provide real-time visibility into controversial telemetry and data collection features built into Windows 11. This tool empowers users with transparent information about backgroun![This is the first image](https://camo.githubusercontent.com/c9de0673a2ff1594376d43b1b9677f19a6bc72a7ff37f07581a79be8164dfb53/68747470733a2f2f7472656c6c6f2e636f6d2f312f63617264732f3639626439323739363832353630623362396436333462632f6174746163686d656e74732f3639626439323831343561653361353134643333373166662f70726576696577732f3639626439323832343561653361353134643333373230662f646f776e6c6f61642f696d6167652e77656270)d services
 
 ### Built with:
 Python: https://www.python.org
@@ -28,10 +28,10 @@ Tarry/
 This project is intended to be used as an additional monitoring tool for the Windows 11 operating system and will not be accessible on other operating systems. It's intended on being a tool to monitor what Windows systems may be active on your OS.
 
 Below you can see an example of what Tracking Tarry should look like on Windows 11. The monitoring tool here tells you want is active or disabled on your device.
-![https://trello.com/1/cards/69bd9279682560b3b9d634bc/attachments/69bd928145ae3a514d3371ff/previews/69bd928245ae3a514d33720f/download/image.webp](https://trello.com/1/cards/69bd9279682560b3b9d634bc/attachments/69bd928145ae3a514d3371ff/previews/69bd928245ae3a514d33720f/download/image.webp) 
+![This is the first image](https://camo.githubusercontent.com/c9de0673a2ff1594376d43b1b9677f19a6bc72a7ff37f07581a79be8164dfb53/68747470733a2f2f7472656c6c6f2e636f6d2f312f63617264732f3639626439323739363832353630623362396436333462632f6174746163686d656e74732f3639626439323831343561653361353134643333373166662f70726576696577732f3639626439323832343561653361353134643333373230662f646f776e6c6f61642f696d6167652e77656270) 
 
 This is more control over how active the systems monitoring timeline is.
-![https://trello.com/1/cards/69bd9279682560b3b9d634bc/attachments/69bd92a2640ca897b004660d/previews/69bd92a3640ca897b0046633/download/image.webp](https://trello.com/1/cards/69bd9279682560b3b9d634bc/attachments/69bd92a2640ca897b004660d/previews/69bd92a3640ca897b0046633/download/image.webp)
+![This is the second image](%5Bhttps://trello.com/1/cards/69bd9279682560b3b9d634bc/attachments/69bd92a2640ca897b004660d/previews/69bd92a3640ca897b0046633/download/image.webp%5D%28https://trello.com/1/cards/69bd9279682560b3b9d634bc/attachments/69bd92a2640ca897b004660d/previews/69bd92a3640ca897b0046633/download/image.webp%29)
 
 ### Monitored features include (Not Limited To):
 - DiagTrack, 
@@ -57,3 +57,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Our Youtube: https://www.youtube.com/@TrackingTarry
 Our Twitter: https://x.com/TrackingTarry
 Our Reddit: https://www.reddit.com/user/TrackingTarryOffical/
+
