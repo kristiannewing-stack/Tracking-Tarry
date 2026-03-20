@@ -1,6 +1,6 @@
-# Contributing to Windows 11 Transparency Monitor
+# Contributing to Tracking Tarry
 
-Thank you for your interest in contributing to the Windows 11 Transparency Monitor! This project aims to provide transparency about Windows 11's telemetry and data collection features while maintaining a neutral stance on their use.
+Thank you for your interest in contributing to the Tracking Tarry !!! This project aims to provide transparency about Windows 11's telemetry and data collection features while maintaining a neutral stance on their use.
 
 ## Table of Contents
 
@@ -51,3 +51,4 @@ Share the project with others who might benefit from it.
 
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
+
