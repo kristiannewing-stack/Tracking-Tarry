@@ -1,0 +1,9 @@
+{
+  "app": "Tarry v1.1",
+  "author": "Sylwester Poplawski",
+  "license": "MIT",
+  "repository": "tba",
+  "description": "Tracking Tarry monitors Windows telemetry and privacy-related services in real time. It reads all service definitions from services/services.json — add any new service there and it will appear automatically in the monitor list without touching the code.",
+  "version": "1.1.0",
+  "contact": "tba"
+}

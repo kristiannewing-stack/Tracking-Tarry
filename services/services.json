@@ -1,0 +1,146 @@
+{
+  "services": [
+    {
+      "group": "Core Background Services",
+      "key": "DiagTrack",
+      "name": "Connected User Experiences & Telemetry",
+      "checks": [
+        {
+          "type": "service",
+          "service_name": "DiagTrack"
+        }
+      ]
+    },
+    {
+      "group": "Core Background Services",
+      "key": "CompatTelRunner",
+      "name": "Microsoft Compatibility Telemetry",
+      "checks": [
+        {
+          "type": "process",
+          "process_name": "CompatTelRunner.exe"
+        }
+      ]
+    },
+    {
+      "group": "Core Background Services",
+      "key": "dmwappushservice",
+      "name": "WAP Push Message Routing Service",
+      "checks": [
+        {
+          "type": "service",
+          "service_name": "dmwappushservice"
+        }
+      ]
+    },
+    {
+      "group": "Integrated Windows Features",
+      "key": "ActivityHistory",
+      "name": "Activity History",
+      "checks": [
+        {
+          "type": "registry",
+          "hive": "HKLM",
+          "key_path": "SOFTWARE\\Policies\\Microsoft\\Windows\\System",
+          "value_name": "PublishUserActivities",
+          "expected_enabled": 1,
+          "invert": false
+        }
+      ]
+    },
+    {
+      "group": "Integrated Windows Features",
+      "key": "InkingTyping",
+      "name": "Inking and Typing Personalization",
+      "checks": [
+        {
+          "type": "registry",
+          "hive": "HKLM",
+          "key_path": "SOFTWARE\\Microsoft\\InputPersonalization",
+          "value_name": "RestrictImplicitInkCollection",
+          "expected_enabled": 0,
+          "invert": true
+        }
+      ]
+    },
+    {
+      "group": "Integrated Windows Features",
+      "key": "SmartScreen",
+      "name": "SmartScreen Filter",
+      "checks": [
+        {
+          "type": "registry",
+          "hive": "HKLM",
+          "key_path": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer",
+          "value_name": "SmartScreenEnabled",
+          "expected_enabled": 1,
+          "invert": false
+        }
+      ]
+    },
+    {
+      "group": "Integrated Windows Features",
+      "key": "Copilot",
+      "name": "Windows Copilot",
+      "checks": [
+        {
+          "type": "process",
+          "process_name": "Copilot.exe"
+        },
+        {
+          "type": "process",
+          "process_name": "WindowsCopilot.exe"
+        }
+      ]
+    },
+    {
+      "group": "Integrated Windows Features",
+      "key": "LocationServices",
+      "name": "Location Services",
+      "checks": [
+        {
+          "type": "registry",
+          "hive": "HKLM",
+          "key_path": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\location",
+          "value_name": "Value",
+          "expected_enabled": "Allow",
+          "invert": false
+        }
+      ]
+    },
+    {
+      "group": "Integrated Windows Features",
+      "key": "TailoredExperiences",
+      "name": "Tailored Experiences",
+      "checks": [
+        {
+          "type": "registry",
+          "hive": "HKLM",
+          "key_path": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Privacy",
+          "value_name": "TailoredExperiencesWithDiagnosticDataEnabled",
+          "expected_enabled": 1,
+          "invert": false
+        }
+      ]
+    },
+    {
+      "group": "Integrated Windows Features",
+      "key": "Recall",
+      "name": "Windows Recall (Snapshots)",
+      "checks": [
+        {
+          "type": "dism_feature",
+          "feature_name": "Recall",
+          "fallback": {
+            "type": "registry",
+            "hive": "HKLM",
+            "key_path": "SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsAI",
+            "value_name": "DisableAIDataAnalysis",
+            "expected_enabled": 0,
+            "invert": false
+          }
+        }
+      ]
+    }
+  ]
+}
