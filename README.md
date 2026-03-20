@@ -10,7 +10,6 @@
   - Fixed-size, bottom-right aligned window for a "widget" feel.
   - Native System Tray integration with "Start on Boot" options.
   - Single-instance protection (prevents multiple copies from running).
-  - Automatic Admin elevation prompt for deep system checks.
 
 ---
 
