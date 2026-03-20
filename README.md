@@ -28,9 +28,11 @@ Tarry/
 This project is intended to be used as an additional monitoring tool for the Windows 11 operating system and will not be accessible on other operating systems. It's intended on being a tool to monitor what Windows systems may be active on your OS.
 
 Below you can see an example of what Tracking Tarry should look like on Windows 11. The monitoring tool here tells you want is active or disabled on your device.
+
 ![Screenshot of Tarry](Images/Screenshot1.png) 
 
 This is more control over how active the systems monitoring timeline is.
+
 ![Screenshot of Monitoring options](Images/Screenshot2.png)
 
 ### Monitored features include (Not Limited To):
