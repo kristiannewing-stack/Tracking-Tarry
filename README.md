@@ -1,31 +1,59 @@
-# Tarry v1.1
+﻿# Tracking-Tarry
 
-**Tarry** is a lightweight, data-driven Windows Telemetry Monitor designed to help users maintain a "debloated" system state. It sits in your system tray and periodically checks if unwanted Windows services, processes, or registry keys have been re-enabled by system updates.
+The Windows 11 System Monitoring Tool (Tracking Tarry) is an open-source system tray application designed to provide real-time visibility into controversial telemetry and data collection features built into Windows 11. This tool empowers users with transparent information about background services
 
-### 🚀 Key Features
-- **Real-time Monitoring:** Checks system services, active processes, registry keys, and DISM features.
-- **Data-Driven Design:** Add or remove monitored items by simply editing a JSON file—no coding required.
-- **Smart Navigation:** 3-page interface (Monitor, Settings, About) with a modern dark theme.
-- **Windows Integration:** 
-  - Fixed-size, bottom-right aligned window for a "widget" feel.
-  - Native System Tray integration with "Start on Boot" options.
-  - Single-instance protection (prevents multiple copies from running).
+### Built with:
+Python: https://www.python.org
+## Prerequisites
 
----
+[](https://github.com/othneildrew/Best-README-Template#prerequisites)
+Please insure the download of software that can run a python script if you decide to not use the executable, such as Visual Studio Core
 
-<img width="382" height="570" alt="image" src="https://github.com/user-attachments/assets/5fab384c-b56b-4ba3-b289-b8abecaad623" />
+## Installation
+We would advise you download our compressed Zip file to find a working executable, here you can just double click and run the full app.
 
-
-### 📂 Folder Structure
-To run the executable or the script, ensure your folder looks like this:
+If you wish to run it as a program through the script itself, simply use this GitHub for a direct link to download the python file:
+#### Folder Structure
+To run the script, ensure your folder looks like this:
 ```text
 Tarry/
-├── Tarry_v1_1.exe          # The main application
+├── Tarry_v1_1.py          # The main application
 ├── settings.json           # Auto-generated user preferences
 ├── about/
 │   └── about.json          # Content for the "About" page
 └── services/
-    └── services.json       # Definitions for telemetry checks
+    └── services.json       # Definitions for telemetry checks 
+```
+## Usage
+This project is intended to be used as an additional monitoring tool for the Windows 11 operating system and will not be accessible on other operating systems. It's intended on being a tool to monitor what Windows systems may be active on your OS.
 
+Below you can see an example of what Tracking Tarry should look like on Windows 11. The monitoring tool here tells you want is active or disabled on your device.
+![https://trello.com/1/cards/69bd9279682560b3b9d634bc/attachments/69bd928145ae3a514d3371ff/previews/69bd928245ae3a514d33720f/download/image.webp](https://trello.com/1/cards/69bd9279682560b3b9d634bc/attachments/69bd928145ae3a514d3371ff/previews/69bd928245ae3a514d33720f/download/image.webp) 
 
-Please check the Releases section for the executable.
+This is more control over how active the systems monitoring timeline is.
+![https://trello.com/1/cards/69bd9279682560b3b9d634bc/attachments/69bd92a2640ca897b004660d/previews/69bd92a3640ca897b0046633/download/image.webp](https://trello.com/1/cards/69bd9279682560b3b9d634bc/attachments/69bd92a2640ca897b004660d/previews/69bd92a3640ca897b0046633/download/image.webp)
+
+### Monitored features include (Not Limited To):
+- DiagTrack, 
+- CompatTelRunner, 
+- Windows Recall, 
+- Copilot, 
+- SmartScreen, 
+- Activity History,
+- Location Services, 
+- Inking & Typing Personalization, 
+- Tailored Experiences, and 
+- WAP Push
+- Message Routing
+
+## Contributors 
+1. [**kristiannewing-stack** ](https://github.com/kristiannewing-stack)
+2. [**SylwesterPoplawski**](https://github.com/SylwesterPoplawski)
+
+## License
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+## Contact
+Our Youtube: https://www.youtube.com/@TrackingTarry
+Our Twitter: https://x.com/TrackingTarry
+Our Reddit: https://www.reddit.com/user/TrackingTarryOffical/
