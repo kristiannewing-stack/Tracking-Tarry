@@ -14,6 +14,9 @@
 
 ---
 
+<img width="382" height="570" alt="image" src="https://github.com/user-attachments/assets/5fab384c-b56b-4ba3-b289-b8abecaad623" />
+
+
 ### 📂 Folder Structure
 To run the executable or the script, ensure your folder looks like this:
 ```text
