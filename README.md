@@ -1,6 +1,6 @@
 ﻿# Tracking-Tarry
 
-The Windows 11 System Monitoring Tool (Tracking Tarry) is an open-source system tray application designed to provide real-time visibility into controversial telemetry and data collection features built into Windows 11. This tool empowers users with transparent information about backgroun![This is the first image](https://camo.githubusercontent.com/c9de0673a2ff1594376d43b1b9677f19a6bc72a7ff37f07581a79be8164dfb53/68747470733a2f2f7472656c6c6f2e636f6d2f312f63617264732f3639626439323739363832353630623362396436333462632f6174746163686d656e74732f3639626439323831343561653361353134643333373166662f70726576696577732f3639626439323832343561653361353134643333373230662f646f776e6c6f61642f696d6167652e77656270)d services
+The Windows 11 System Monitoring Tool (Tracking Tarry) is an open-source system tray application designed to provide real-time visibility into controversial telemetry and data collection features built into Windows 11. This tool empowers users with transparent information about background services
 
 ### Built with:
 Python: https://www.python.org
